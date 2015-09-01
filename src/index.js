@@ -16,7 +16,6 @@ function azEvalFactory($parse) {
     } else if (typeof(expression) === 'string') {
       value = $parse(expression)(item);
     } else {
-      console.log('123');
       throw new Error('azEval only accepts functions and expression strings');
     }
     return value;

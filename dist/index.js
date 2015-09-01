@@ -1,4 +1,4 @@
-//! az-eval version 1.0.0 built with ♥ by Justin McMurdie <mcmurdiej@gmail.com> (http://mcmurdie.net/) && Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/) (ó ì_í)=óò=(ì_í ò)
+//! az-eval version 1.0.2 built with ♥ by Justin McMurdie <mcmurdiej@gmail.com> (http://mcmurdie.net/) && Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/) (ó ì_í)=óò=(ì_í ò)
 
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
@@ -84,7 +84,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	    } else if (typeof expression === 'string') {
 	      value = $parse(expression)(item);
 	    } else {
-	      console.log('123');
 	      throw new Error('azEval only accepts functions and expression strings');
 	    }
 	    return value;
